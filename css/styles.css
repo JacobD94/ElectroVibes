@@ -1,0 +1,270 @@
+@font-face {
+  font-family: "Electrolize";
+  src: url("../fonts/Electrolize/Electrolize-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "FragmentMono";
+  src: url("../fonts/Fragment_Mono/FragmentMono-Regular.ttf")
+}
+#mainFooter, #mainContent {
+  font-family: "FragmentMono";
+  font-weight: normal;
+  letter-spacing: .005px;
+}
+body {
+ margin: 0px;
+ padding: 0px;
+ background-image: url("../images/crowdConcert.jpg");
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-position: 0px;
+ background-size: cover;
+
+}
+#body_layer1 {
+ width: 60%;
+ margin: 0px auto;
+ 
+}
+#mainHeader {
+ width: 100%;
+ height: 220px;
+ margin: 40px auto 0px auto;
+ clear: both;
+}
+#siteAndSlogan {
+ width: 300px;
+ padding: 20px 0px;
+ float: left;
+ position: relative;
+ left: 60px;
+ top: 15px;
+ border: 10px double #39ff14;
+ border-radius: 20px;
+ text-align: center;
+
+ color: #fff;
+ font-family: "Electrolize";
+}
+#siteTitle {
+ padding: 20px 0px 5px 0px;
+ margin: 0px;
+ font-size: 48px;
+}
+#siteSlogan {
+ margin: 0px;
+ padding: 5px 0px;
+ font-size: 18px;
+}
+#mainContent {
+ width: 100%;
+ margin: 0px auto;
+ border: 10px double #1F51FF;
+ border-radius: 20px;
+ position: relative;
+ top: 50px;
+}
+#mainNav {
+ width: 400px;
+ float: right;
+ position: relative;
+ top: 60px;
+ right: 30px;
+ border: 10px double #FF073A;
+
+ font-family: "Electrolize";
+ 
+ border-radius: 20px;
+ text-align: center;
+}
+#mainNav a {
+ display: inline-block;
+ padding: 10px 5px;
+ text-decoration: none;
+ font-size: 18px;
+ color: #fff;
+}
+#mainContent {
+ width: 100%;
+ margin: 0px auto;
+ padding: 20px 0px;
+
+ color: #fff;
+}
+.contentBox {
+ width: 70%;
+ margin: 20px auto;
+ padding: 10px 5px;
+}
+.blogPost h2 {
+ text-align: center;
+ font-size: 32px;
+ color: #39ff14;
+ font-family: "Electrolize";
+}
+.blogPost p {
+ font-size: 18px;
+ line-height: 2em;
+ text-indent: 1em;
+}
+.blogPost footer a {
+ color: #39ff14;
+}
+.blogPost footer p {
+ font-size: 16px;
+}
+#mainFooter {
+ width: 100%;
+ margin: 0px auto 40px auto;
+ padding: 0px;
+ height: 200px;
+ border: 10px double #ffea17;
+ border-radius: 20px;
+ margin-top: 100px;
+
+}
+#mainFooter p {
+ text-align: center;
+ margin: 0px auto;
+ padding: 20px 0px;
+ position: relative;
+ top: 70px;
+ color: #fff;
+}
+#Quezacotl {
+ width: 200px;
+ margin: 40px auto;
+ display: block;
+}
+.albumArtDesc {
+ width: 100%;
+ margin: 0px auto;
+ text-align: center;
+}
+
+.albumArtDesc figcaption {
+ margin: 20px auto;
+ display: block;
+}
+ #mainContent, #mainNav, #mainFooter, body, #siteAndSlogan {
+  background-color: rgba(0, 0,0, 0.90);
+}
+@media (max-width: 1366px) {
+
+ #mainHeader {
+  height: auto;
+  clear: none;
+ }
+ #siteAndSlogan {
+  float: none;
+  display: block;
+  margin-bottom: 00px;
+  text-align: center;
+  width: 80%;
+ }
+ #mainNav {
+  float: none;
+  display: block;
+  width: 100%;
+  position: relative;
+  top: 30px;
+  left: 00px;
+ }
+}
+@media (max-width: 810px) {
+  #siteAndSlogan {
+   position: inherit;
+   width: 100%;
+  
+  
+  }
+}
+@media (max-width: 590px) {
+  #body_layer1 {
+    width: 90%;
+  }
+}
+@media (max-width:520px) {
+ #mainHeader {
+  width: 100%;
+ }
+ #body_layer1 {
+  width: 90%;
+  position: relative;
+  left: -15px;
+ }
+}
+@media (max-width: 430px) {
+ #siteAndSlogan {
+  width: 100%;
+ }
+ #siteTitle {
+  font-size: 36px;
+ }
+ .contentBox {
+  width: 95%;
+  position: relative;
+  left: 10px;
+ }
+ .albumArtDesc audio {
+  width: 100%;
+ }
+ #body_layer1 {
+  width: 90%;
+  position: relative;
+  
+ }
+}
+
+@media (max-width:375px) {
+ #siteAndSlogan {
+  width: 100%;
+ }
+ #siteTitle {
+  font-size: 36px;
+ }
+ .contentBox {
+  width: 100%;
+  position: relative;
+  
+ }
+ .contentBox p {
+  width: 95%;
+ }
+ .albumArtDesc audio {
+  width: 95%;
+ }
+}
+@media (max-width:320px) {
+ body {
+  position: absolute;
+  left: 18px;
+ }
+
+ .contentBox {
+  width: 100%;
+  position: relative;
+  left: 5px;
+ }
+ #body_layer1 {
+  width: 100%;
+  position: relative;
+  left: 20px;
+ }
+ .contentBox p {
+  font-size: 14px;
+  position: relative;
+  right: 5px;
+
+ }
+ .albumArtDesc audio {
+  position: relative;
+  right: 10px;
+ }
+ #mainContent, #mainFooter, #mainNav, #siteAndSlogan {
+
+  position: relative;
+  left: 5px;
+ }
+}

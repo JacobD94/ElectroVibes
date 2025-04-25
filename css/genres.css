@@ -1,0 +1,24 @@
+#genreGallery {
+  width: 100%;
+  margin: 0px auto;
+  list-style: none;
+  padding: 0px;
+}
+#genreGallery li {
+  
+}
+#genreGallery figure {
+  width: 100%;
+  margin: 40px auto;
+}
+#genreGallery h3 {
+  text-align: center;
+  font-size: 24px;
+  color: #FF073A;
+}
+#genreGallery img {
+  width: 95%;
+  margin: 0px auto;
+  border: 4px yellow groove;
+  border-radius: 20px;
+}

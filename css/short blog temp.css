@@ -1,0 +1,88 @@
+body {
+ margin: 0px;
+ padding: 0px;
+}
+#body_layer1 {
+ width: 70%;
+ margin: 0px auto;
+ 
+}
+#mainHeader {
+ width: 100%;
+ height: 150px;
+ margin: 40px auto 0px auto;
+ clear: both;
+ background-color: brown;
+}
+#siteAndSlogan {
+ width: 300px;
+ float: left;
+ position: relative;
+ left: 60px;
+ top: 15px;
+}
+#siteTitle {
+ padding: 20px 0px 5px 0px;
+ margin: 0px;
+ font-size: 48px;
+}
+#siteSlogan {
+ margin: 0px;
+ padding: 5px 0px;
+ font-size: 18px;
+}
+#mainContent {
+ width: 100%;
+ margin: 0px auto;
+}
+#mainNav {
+ width: 300px;
+ float: right;
+ position: relative;
+ top: 60px;
+ right: 30px;
+}
+#mainNav a {
+ display: inline-block;
+ padding: 10px 5px;
+ text-decoration: none;
+ color: black;
+ font-size: 18px;
+}
+#mainContent {
+ width: 100%;
+ margin: 0px auto;
+ padding: 20px 0px;
+ background-color: aquamarine;
+}
+.contentBox {
+ width: 90%;
+ margin: 20px auto;
+ padding: 10px 5px;
+}
+.blogPost h2 {
+ text-align: center;
+ font-size: 32px;
+}
+.blogPost p {
+ font-size: 18px;
+ line-height: 2em;
+ text-indent: 1em;
+}
+.blogPost footer p {
+ font-size: 16px;
+}
+#mainFooter {
+ width: 100%;
+ margin: 0px auto;
+ padding: 0px;
+ height: 200px;
+ background-color: seagreen;
+}
+#mainFooter p {
+ text-align: center;
+ margin: 0px auto;
+ padding: 20px 0px;
+ position: relative;
+ top: 50%;
+}
